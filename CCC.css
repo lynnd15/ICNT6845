@@ -1,0 +1,117 @@
+﻿body {  
+      
+      background-color: #FFFFFF;
+	  color: #336600;
+	  font-family: Verdana, Arial, sans-serif;
+}
+header { 
+
+       background-color: #FFFFFF;
+       color: #990033;
+	   font-family: Georgia, serif;
+}
+h1 { 
+    text-align: center;
+     background-repeat: no-repeat; 
+     background-position: center;
+     padding-left: 20px; 
+     padding-top: 72px;
+     line-height: 150%; 
+     margin-bottom: 0;
+}
+
+
+nav {background-image: url(logo.png);
+	   background-repeat: no-repeat;  
+        background-color:#FFFFFF;
+     font-weight: bold;
+     padding: 10px;
+     float: left;
+     width: 250px;
+     padding-top: 150px;
+     padding-right: 50px;
+     padding-bottom: 125px;
+     padding-left: 10px;
+}
+nav a {
+	text-decoration: none;
+}
+nav a:link {
+	color: #990033;
+}
+nav a:visited{
+	color: #336600;
+}
+nav a:hover {
+	color: #000000;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	
+	line-height: 80px;
+}
+h2 { text-align: center;
+    color: #990033;
+    font-family: Georgia, serif;
+}
+dt { 
+    color: #000033;
+    font-weight: bold; 
+}
+.resort { 
+    color: #000033;
+    font-size: 1.2em;
+}
+footer { 
+       font-size: 0.70em;
+       text-align: center;
+	   font-style: italic;
+		padding-top: 150px;
+	   background-color: #FFFFFF;
+	   margin-left: 70px;
+}
+#wrapper { 
+           width: 80%; 
+           min-width: 700px; 
+           max-width: 1024px;
+           margin-right: auto;
+		   margin-left: auto;
+		   background-color:#FFFFFF;
+		   box-shadow: 5px 5px 5 px #lelele; 
+}
+h3 {text-align: center;
+	color: #990033;
+    font-family: Georgia, serif;
+}
+main {
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: #FFFFFF;
+	margin-left: 180px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+.roomtable{
+	width: 69%;
+	text-align: center;
+	float: right; 
+}
+
+.servicestable{
+	width: 55%;
+	text-align: center;
+}
+.reservationstable{
+	width: 69%;
+	text-align: center;
+	float: right;
+padding-bottom: 150px;	
+}
+
+.reservationstable.th{
+	padding-bottom:150px;	
+}
+.reservationstable.td{
+	padding:25px;	
+}
