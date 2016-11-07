@@ -30,7 +30,7 @@ nav {background-image: url(Logo.png);
      width: 250px;
      padding-top: 150px;
      padding-right: 50px;
-     padding-bottom: 125px;
+     padding-bottom: 700px;
      padding-left: 10px;
 }
 nav a {
@@ -92,6 +92,12 @@ main {
 	padding-top: 1px;
 	padding-bottom: 1px;
 }
+
+main img {
+	float: left;
+	padding-right:50px;
+	padding-bottom: 50px;
+}	
 .roomtable{
 	width: 69%;
 	text-align: center;
